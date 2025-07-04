@@ -1,0 +1,729 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="scnoob">
+  <meta name="keywords" content="技术,编程,生活,分享,博客">
+  
+    <meta name="description" content="Visual Studio Code作为当前最受欢迎的代码编辑器之一，其强大的扩展生态系统是它的一大亮点。今天我来分享一些我认为非常实用的VS Code插件。 通用插件1. Chinese (Simplified) Language Pack插件ID: MS-CEINTL.vscode-language-pack-zh-hans 中文语言包，让VS Code界面显示中文，对于中文用户来说必不可少。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="VS Code必备插件推荐">
+<meta property="og:url" content="https://scnooob.github.io/2025/07/04/vscode-plugins-recommendation/index.html">
+<meta property="og:site_name" content="scnoob&#39;s blog">
+<meta property="og:description" content="Visual Studio Code作为当前最受欢迎的代码编辑器之一，其强大的扩展生态系统是它的一大亮点。今天我来分享一些我认为非常实用的VS Code插件。 通用插件1. Chinese (Simplified) Language Pack插件ID: MS-CEINTL.vscode-language-pack-zh-hans 中文语言包，让VS Code界面显示中文，对于中文用户来说必不可少。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-07-04T08:00:00.000Z">
+<meta property="article:modified_time" content="2025-07-04T14:14:49.964Z">
+<meta property="article:author" content="scnoob">
+<meta property="article:tag" content="VS Code">
+<meta property="article:tag" content="插件">
+<meta property="article:tag" content="开发工具">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>VS Code必备插件推荐 - scnoob&#39;s blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"scnooob.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="VS Code必备插件推荐"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2025-07-04 16:00" pubdate>
+          2025年7月4日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          969 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          9 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">VS Code必备插件推荐</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>Visual Studio Code作为当前最受欢迎的代码编辑器之一，其强大的扩展生态系统是它的一大亮点。今天我来分享一些我认为非常实用的VS Code插件。</p>
+<h2 id="通用插件"><a href="#通用插件" class="headerlink" title="通用插件"></a>通用插件</h2><h3 id="1-Chinese-Simplified-Language-Pack"><a href="#1-Chinese-Simplified-Language-Pack" class="headerlink" title="1. Chinese (Simplified) Language Pack"></a>1. Chinese (Simplified) Language Pack</h3><p><strong>插件ID</strong>: <code>MS-CEINTL.vscode-language-pack-zh-hans</code></p>
+<p>中文语言包，让VS Code界面显示中文，对于中文用户来说必不可少。</p>
+<h3 id="2-Bracket-Pair-Colorizer-2"><a href="#2-Bracket-Pair-Colorizer-2" class="headerlink" title="2. Bracket Pair Colorizer 2"></a>2. Bracket Pair Colorizer 2</h3><p><strong>插件ID</strong>: <code>CoenraadS.bracket-pair-colorizer-2</code></p>
+<p>为括号添加不同颜色，帮助快速识别匹配的括号对，提高代码可读性。</p>
+<h3 id="3-Indent-Rainbow"><a href="#3-Indent-Rainbow" class="headerlink" title="3. Indent Rainbow"></a>3. Indent Rainbow</h3><p><strong>插件ID</strong>: <code>oderwat.indent-rainbow</code></p>
+<p>为缩进添加彩虹色，让代码层次结构更清晰。</p>
+<h3 id="4-GitLens"><a href="#4-GitLens" class="headerlink" title="4. GitLens"></a>4. GitLens</h3><p><strong>插件ID</strong>: <code>eamodio.gitlens</code></p>
+<p>增强Git功能，可以看到每行代码的提交信息、作者、时间等，非常有用。</p>
+<h3 id="5-Live-Server"><a href="#5-Live-Server" class="headerlink" title="5. Live Server"></a>5. Live Server</h3><p><strong>插件ID</strong>: <code>ritwickdey.LiveServer</code></p>
+<p>快速启动本地服务器，实时预览HTML文件，前端开发必备。</p>
+<h2 id="代码编辑"><a href="#代码编辑" class="headerlink" title="代码编辑"></a>代码编辑</h2><h3 id="6-Auto-Rename-Tag"><a href="#6-Auto-Rename-Tag" class="headerlink" title="6. Auto Rename Tag"></a>6. Auto Rename Tag</h3><p><strong>插件ID</strong>: <code>formulahendry.auto-rename-tag</code></p>
+<p>自动重命名HTML&#x2F;XML标签，修改开始标签时自动修改结束标签。</p>
+<h3 id="7-Emmet"><a href="#7-Emmet" class="headerlink" title="7. Emmet"></a>7. Emmet</h3><p>内置插件，支持HTML和CSS的快速编写。</p>
+<h3 id="8-IntelliSense-for-CSS-class-names"><a href="#8-IntelliSense-for-CSS-class-names" class="headerlink" title="8. IntelliSense for CSS class names"></a>8. IntelliSense for CSS class names</h3><p><strong>插件ID</strong>: <code>Zignd.html-css-class-completion</code></p>
+<p>CSS类名智能提示，在HTML中写class时自动提示已定义的CSS类。</p>
+<h2 id="主题和外观"><a href="#主题和外观" class="headerlink" title="主题和外观"></a>主题和外观</h2><h3 id="9-One-Dark-Pro"><a href="#9-One-Dark-Pro" class="headerlink" title="9. One Dark Pro"></a>9. One Dark Pro</h3><p><strong>插件ID</strong>: <code>zhuangtongfa.Material-theme</code></p>
+<p>经典的暗色主题，界面美观，护眼。</p>
+<h3 id="10-Material-Icon-Theme"><a href="#10-Material-Icon-Theme" class="headerlink" title="10. Material Icon Theme"></a>10. Material Icon Theme</h3><p><strong>插件ID</strong>: <code>PKief.material-icon-theme</code></p>
+<p>Material Design风格的文件图标主题。</p>
+<h3 id="11-Dracula-Official"><a href="#11-Dracula-Official" class="headerlink" title="11. Dracula Official"></a>11. Dracula Official</h3><p><strong>插件ID</strong>: <code>dracula-theme.theme-dracula</code></p>
+<p>另一个流行的暗色主题。</p>
+<h2 id="前端开发"><a href="#前端开发" class="headerlink" title="前端开发"></a>前端开发</h2><h3 id="12-ES7-React-Redux-React-Native-snippets"><a href="#12-ES7-React-Redux-React-Native-snippets" class="headerlink" title="12. ES7+ React&#x2F;Redux&#x2F;React-Native snippets"></a>12. ES7+ React&#x2F;Redux&#x2F;React-Native snippets</h3><p><strong>插件ID</strong>: <code>dsznajder.es7-react-js-snippets</code></p>
+<p>React开发的代码片段，提高开发效率。</p>
+<h3 id="13-Prettier-Code-formatter"><a href="#13-Prettier-Code-formatter" class="headerlink" title="13. Prettier - Code formatter"></a>13. Prettier - Code formatter</h3><p><strong>插件ID</strong>: <code>esbenp.prettier-vscode</code></p>
+<p>代码格式化工具，支持多种语言。</p>
+<h3 id="14-ESLint"><a href="#14-ESLint" class="headerlink" title="14. ESLint"></a>14. ESLint</h3><p><strong>插件ID</strong>: <code>dbaeumer.vscode-eslint</code></p>
+<p>JavaScript代码质量检查工具。</p>
+<h3 id="15-TypeScript-Importer"><a href="#15-TypeScript-Importer" class="headerlink" title="15. TypeScript Importer"></a>15. TypeScript Importer</h3><p><strong>插件ID</strong>: <code>pmneo.tsimporter</code></p>
+<p>TypeScript自动导入工具。</p>
+<h2 id="后端开发"><a href="#后端开发" class="headerlink" title="后端开发"></a>后端开发</h2><h3 id="16-Python"><a href="#16-Python" class="headerlink" title="16. Python"></a>16. Python</h3><p><strong>插件ID</strong>: <code>ms-python.python</code></p>
+<p>Python开发必备，提供语法高亮、调试、智能提示等功能。</p>
+<h3 id="17-Go"><a href="#17-Go" class="headerlink" title="17. Go"></a>17. Go</h3><p><strong>插件ID</strong>: <code>golang.Go</code></p>
+<p>Go语言开发支持。</p>
+<h3 id="18-REST-Client"><a href="#18-REST-Client" class="headerlink" title="18. REST Client"></a>18. REST Client</h3><p><strong>插件ID</strong>: <code>humao.rest-client</code></p>
+<p>在VS Code中直接测试REST API。</p>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h3 id="19-SQLTools"><a href="#19-SQLTools" class="headerlink" title="19. SQLTools"></a>19. SQLTools</h3><p><strong>插件ID</strong>: <code>mtxr.sqltools</code></p>
+<p>数据库连接和查询工具。</p>
+<h3 id="20-MongoDB-for-VS-Code"><a href="#20-MongoDB-for-VS-Code" class="headerlink" title="20. MongoDB for VS Code"></a>20. MongoDB for VS Code</h3><p><strong>插件ID</strong>: <code>mongodb.mongodb-vscode</code></p>
+<p>MongoDB数据库支持。</p>
+<h2 id="文档和写作"><a href="#文档和写作" class="headerlink" title="文档和写作"></a>文档和写作</h2><h3 id="21-Markdown-All-in-One"><a href="#21-Markdown-All-in-One" class="headerlink" title="21. Markdown All in One"></a>21. Markdown All in One</h3><p><strong>插件ID</strong>: <code>yzhang.markdown-all-in-one</code></p>
+<p>Markdown编写增强工具，支持目录生成、快捷键等。</p>
+<h3 id="22-markdownlint"><a href="#22-markdownlint" class="headerlink" title="22. markdownlint"></a>22. markdownlint</h3><p><strong>插件ID</strong>: <code>DavidAnson.vscode-markdownlint</code></p>
+<p>Markdown语法检查。</p>
+<h3 id="23-Paste-Image"><a href="#23-Paste-Image" class="headerlink" title="23. Paste Image"></a>23. Paste Image</h3><p><strong>插件ID</strong>: <code>mushan.vscode-paste-image</code></p>
+<p>快速粘贴图片到Markdown文档。</p>
+<h2 id="效率工具"><a href="#效率工具" class="headerlink" title="效率工具"></a>效率工具</h2><h3 id="24-Todo-Tree"><a href="#24-Todo-Tree" class="headerlink" title="24. Todo Tree"></a>24. Todo Tree</h3><p><strong>插件ID</strong>: <code>Gruntfuggly.todo-tree</code></p>
+<p>在代码中查找并高亮显示TODO注释。</p>
+<h3 id="25-Bookmarks"><a href="#25-Bookmarks" class="headerlink" title="25. Bookmarks"></a>25. Bookmarks</h3><p><strong>插件ID</strong>: <code>alefragnani.Bookmarks</code></p>
+<p>代码书签功能，快速导航到重要代码位置。</p>
+<h3 id="26-Path-Intellisense"><a href="#26-Path-Intellisense" class="headerlink" title="26. Path Intellisense"></a>26. Path Intellisense</h3><p><strong>插件ID</strong>: <code>christian-kohler.path-intellisense</code></p>
+<p>文件路径智能提示。</p>
+<h3 id="27-Auto-Close-Tag"><a href="#27-Auto-Close-Tag" class="headerlink" title="27. Auto Close Tag"></a>27. Auto Close Tag</h3><p><strong>插件ID</strong>: <code>formulahendry.auto-close-tag</code></p>
+<p>自动闭合HTML标签。</p>
+<h2 id="配置建议"><a href="#配置建议" class="headerlink" title="配置建议"></a>配置建议</h2><h3 id="推荐的用户设置"><a href="#推荐的用户设置" class="headerlink" title="推荐的用户设置"></a>推荐的用户设置</h3><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs json"><span class="hljs-punctuation">&#123;</span><br>  <span class="hljs-attr">&quot;editor.fontSize&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">14</span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;editor.fontFamily&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;Fira Code, Consolas, &#x27;Courier New&#x27;, monospace&quot;</span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;editor.fontLigatures&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">true</span></span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;editor.tabSize&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">2</span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;editor.insertSpaces&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">true</span></span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;editor.wordWrap&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;on&quot;</span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;editor.formatOnSave&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">true</span></span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;files.autoSave&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;afterDelay&quot;</span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;workbench.colorTheme&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;One Dark Pro&quot;</span><span class="hljs-punctuation">,</span><br>  <span class="hljs-attr">&quot;workbench.iconTheme&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;material-icon-theme&quot;</span><br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="推荐的快捷键"><a href="#推荐的快捷键" class="headerlink" title="推荐的快捷键"></a>推荐的快捷键</h3><ul>
+<li><code>Ctrl+Shift+P</code>: 命令面板</li>
+<li><code>Ctrl+P</code>: 快速打开文件</li>
+<li><code>Ctrl+Shift+E</code>: 文件资源管理器</li>
+<li><code>Ctrl+Shift+F</code>: 全局搜索</li>
+<li><code>Ctrl+Shift+G</code>: 源代码管理</li>
+<li><code>Ctrl+Shift+X</code>: 扩展</li>
+<li><code>Ctrl+Shift+D</code>: 调试</li>
+<li><code>Ctrl+J</code>: 切换面板</li>
+<li><code>Ctrl+B</code>: 切换侧栏</li>
+</ul>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这些插件可以大大提高你的开发效率。当然，不需要一次性安装所有插件，根据自己的需求选择合适的插件。记住，插件虽好，但不要贪多，太多插件可能会影响VS Code的性能。</p>
+<p>建议：</p>
+<ol>
+<li>根据你的主要开发语言选择相应插件</li>
+<li>先安装基础插件，再根据需要添加</li>
+<li>定期清理不使用的插件</li>
+<li>关注插件的更新和新功能</li>
+</ol>
+<p>希望这些插件推荐能帮助你提高开发效率！如果你有其他好用的插件推荐，欢迎在评论区分享。</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%8A%80%E6%9C%AF/" class="category-chain-item">技术</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/VS-Code/" class="print-no-link">#VS Code</a>
+      
+        <a href="/tags/%E6%8F%92%E4%BB%B6/" class="print-no-link">#插件</a>
+      
+        <a href="/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/" class="print-no-link">#开发工具</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>VS Code必备插件推荐</div>
+      <div>https://scnooob.github.io/2025/07/04/vscode-plugins-recommendation/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>scnoob</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2025年7月4日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2025/07/04/git-commands-cheatsheet/" title="Git常用命令速查手册">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Git常用命令速查手册</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2025/07/04/hexo-blog-guide/" title="Hexo博客搭建完整指南">
+                        <span class="hidden-mobile">Hexo博客搭建完整指南</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
