@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>scnoob&#39;s blog</title>
+  
+  <subtitle>分享技术与生活</subtitle>
+  <link href="https://scnoob.me/atom.xml" rel="self"/>
+  
+  <link href="https://scnoob.me/"/>
+  <updated>2025-07-04T14:14:49.964Z</updated>
+  <id>https://scnoob.me/</id>
+  
+  <author>
+    <name>scnoob</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>程序员的时间管理之道</title>
+    <link href="https://scnoob.me/2025/07/04/time-management-for-programmers/"/>
+    <id>https://scnoob.me/2025/07/04/time-management-for-programmers/</id>
+    <published>2025-07-04T12:00:00.000Z</published>
+    <updated>2025-07-04T14:14:49.964Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;作为一名程序员，我们经常面临着各种任务和截止日期的压力。如何合理管理时间，提高工作效率，同时保持生活的平衡，是每个程序员都需要思考的问题。&lt;/p&gt;
+&lt;h2 id=&quot;时间管理的重要性&quot;&gt;&lt;a href=&quot;#时间管理的重要性&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://scnoob.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="时间管理" scheme="https://scnoob.me/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="效率" scheme="https://scnoob.me/tags/%E6%95%88%E7%8E%87/"/>
+    
+    <category term="生活" scheme="https://scnoob.me/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git常用命令速查手册</title>
+    <link href="https://scnoob.me/2025/07/04/git-commands-cheatsheet/"/>
+    <id>https://scnoob.me/2025/07/04/git-commands-cheatsheet/</id>
+    <published>2025-07-04T10:00:00.000Z</published>
+    <updated>2025-07-04T14:14:49.964Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Git是现代软件开发中不可或缺的版本控制工具。这篇文章整理了Git的常用命令，方便日常开发时快速查阅。&lt;/p&gt;
+&lt;h2 id=&quot;基础配置&quot;&gt;&lt;a href=&quot;#基础配置&quot; class=&quot;headerlink&quot; title=&quot;基础配置&quot;&gt;&lt;/a&gt;基础配置&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://scnoob.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Git" scheme="https://scnoob.me/tags/Git/"/>
+    
+    <category term="版本控制" scheme="https://scnoob.me/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
+    
+    <category term="命令行" scheme="https://scnoob.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VS Code必备插件推荐</title>
+    <link href="https://scnoob.me/2025/07/04/vscode-plugins-recommendation/"/>
+    <id>https://scnoob.me/2025/07/04/vscode-plugins-recommendation/</id>
+    <published>2025-07-04T08:00:00.000Z</published>
+    <updated>2025-07-04T14:14:49.964Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Visual Studio Code作为当前最受欢迎的代码编辑器之一，其强大的扩展生态系统是它的一大亮点。今天我来分享一些我认为非常实用的VS Code插件。&lt;/p&gt;
+&lt;h2 id=&quot;通用插件&quot;&gt;&lt;a href=&quot;#通用插件&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://scnoob.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="VS Code" scheme="https://scnoob.me/tags/VS-Code/"/>
+    
+    <category term="插件" scheme="https://scnoob.me/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="开发工具" scheme="https://scnoob.me/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客搭建完整指南</title>
+    <link href="https://scnoob.me/2025/07/04/hexo-blog-guide/"/>
+    <id>https://scnoob.me/2025/07/04/hexo-blog-guide/</id>
+    <published>2025-07-04T06:00:00.000Z</published>
+    <updated>2025-07-04T14:14:49.964Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hexo是一个快速、简洁且高效的博客框架，基于Node.js。它使用Markdown解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
+&lt;h2 id=&quot;为什么选择Hexo&quot;&gt;&lt;a href=&quot;#为什么选择Hexo&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://scnoob.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://scnoob.me/tags/Hexo/"/>
+    
+    <category term="博客" scheme="https://scnoob.me/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="教程" scheme="https://scnoob.me/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎来到我的博客</title>
+    <link href="https://scnoob.me/2025/07/04/welcome-to-my-blog/"/>
+    <id>https://scnoob.me/2025/07/04/welcome-to-my-blog/</id>
+    <published>2025-07-04T02:00:00.000Z</published>
+    <updated>2025-07-04T14:14:49.964Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;大家好，我是scnoob，这是我的个人博客。&lt;/p&gt;
+&lt;h2 id=&quot;关于这个博客&quot;&gt;&lt;a href=&quot;#关于这个博客&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="日志" scheme="https://scnoob.me/categories/%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="博客" scheme="https://scnoob.me/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="开始" scheme="https://scnoob.me/tags/%E5%BC%80%E5%A7%8B/"/>
+    
+  </entry>
+  
+</feed>
